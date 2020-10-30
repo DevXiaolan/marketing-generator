@@ -1,0 +1,5 @@
+docker build -t marketing-generator:20201030 .
+
+docker tag marketing-generator:20201030 registry.cn-shenzhen.aliyuncs.com/lan_jane/marketing-generator:20201030
+
+docker push registry.cn-shenzhen.aliyuncs.com/lan_jane/marketing-generator:20201030
